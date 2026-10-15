@@ -1,0 +1,8 @@
+{
+  "status": "RETIRED_HISTORICAL_CASE",
+  "case_id": "fatal-access-fixture",
+  "original_case_sha256": "ed9c856aae05eac82d172caf1219a977200c9896840072ca999861f0e068d335",
+  "reason": "Original bound evidence is retained in the earlier audit/development record; not included as runnable evidence in this product candidate. Do not rehash placeholders or inherit the old scientific result.",
+  "replacement_example": "cases/synthetic-contract-002.json",
+  "historical_source": "caption-fontfix-001/release; original scientific conclusions unchanged"
+}

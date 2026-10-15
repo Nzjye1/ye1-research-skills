@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ye1-统计绘图"
+  short_description: "根据真实数据或结果绘制分布、比较、关联和比值效应森林图，核单位、分母和方法。"
+  default_prompt: "用 $ye1-statistical-plot 处理我提供的实际材料，并保留来源、版本和科学含义。"
+policy:
+  allow_implicit_invocation: true

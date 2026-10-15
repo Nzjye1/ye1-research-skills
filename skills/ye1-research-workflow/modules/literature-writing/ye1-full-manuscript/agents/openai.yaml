@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-完整论文"
+  short_description: "基于确认方案、实际结果和文献证据形成完整中文或英文论文审阅稿；接受外部已有材料，不套固定案例模板或伪造未知事实。"
+  default_prompt: "使用 $ye1-full-manuscript，根据我提供的现有材料完成完整论文并说明实际来源和待核项。"

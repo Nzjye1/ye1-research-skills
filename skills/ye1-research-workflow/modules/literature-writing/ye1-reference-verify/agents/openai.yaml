@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-文献核真"
+  short_description: "核对DOI、题名、作者、年份和期刊等文献身份；支持旧权威记录对照，元数据相符不代表支持论文主张。"
+  default_prompt: "使用 $ye1-reference-verify，根据我提供的现有材料完成文献核真并说明实际来源和待核项。"

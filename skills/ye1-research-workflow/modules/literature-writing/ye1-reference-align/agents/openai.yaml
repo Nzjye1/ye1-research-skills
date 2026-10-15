@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-引用整理"
+  short_description: "整理已有稿件文内文后映射、重复来源和编号，支持双语同源对应；不把结构一致当身份或内容核真。"
+  default_prompt: "使用 $ye1-reference-align，根据我提供的现有材料完成引用整理并说明实际来源和待核项。"

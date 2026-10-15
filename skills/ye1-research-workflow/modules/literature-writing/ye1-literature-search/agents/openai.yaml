@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-文献检索"
+  short_description: "制定并执行有界中英文文献检索，记录查询、范围、筛选与反证；没有检索工具时处理已有材料，不编造最新来源。"
+  default_prompt: "使用 $ye1-literature-search，根据我提供的现有材料完成文献检索并说明实际来源和待核项。"

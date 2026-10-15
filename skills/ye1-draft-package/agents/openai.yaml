@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ye1-初稿打包"
+  short_description: "用户明确确认所选稿件版本与格式后，汇集稿件、图表和分析记录，生成绑定版本的初稿包。"
+  default_prompt: "用 $ye1-draft-package 处理我提供的实际材料，并保留来源、版本和科学含义。"
+policy:
+  allow_implicit_invocation: true

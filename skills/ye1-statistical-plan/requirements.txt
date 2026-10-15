@@ -1,0 +1,2 @@
+# Optional task dependencies; do not auto-install. Python helpers require Python 3.11+.
+openpyxl

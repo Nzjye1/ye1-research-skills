@@ -1,0 +1,6 @@
+# Optional task dependencies; do not auto-install. Python helpers require Python 3.11+.
+python-docx
+Pillow
+
+# Optional TTC/unsupported font-container coverage backend only:
+matplotlib>=3.9

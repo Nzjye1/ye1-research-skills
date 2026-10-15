@@ -1,0 +1,8 @@
+{
+  "kind": "SELF_AUTHORED_SYNTHETIC_CONTRACT_FIXTURE",
+  "date": "2026-10-14",
+  "source_sha256": "3bc4c10e1a397b40736458f9316c67f2b653851183eda97d2927ccbca50c05c7",
+  "rows": 2,
+  "meaning": "Only tests source/evidence binding and QC/descriptive routing. Not a clinical study, literature search, scientific approval or publication justification.",
+  "authorization": "Test generation only; no real person or real research approval."
+}

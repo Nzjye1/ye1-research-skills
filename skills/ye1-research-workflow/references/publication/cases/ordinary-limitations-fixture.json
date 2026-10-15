@@ -1,0 +1,8 @@
+{
+  "status": "RETIRED_HISTORICAL_CASE",
+  "case_id": "ordinary-limitations-fixture",
+  "original_case_sha256": "89f7740d73adfcb2abacb8241edfab6df463b94bfd6fba77e0d3e2181edef47c",
+  "reason": "Original bound evidence is retained in the earlier audit/development record; not included as runnable evidence in this product candidate. Do not rehash placeholders or inherit the old scientific result.",
+  "replacement_example": "cases/synthetic-contract-002.json",
+  "historical_source": "caption-fontfix-001/release; original scientific conclusions unchanged"
+}

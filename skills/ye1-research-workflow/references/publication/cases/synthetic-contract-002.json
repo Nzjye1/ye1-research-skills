@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.2.0",
+  "case_id": "TEST_ONLY_synthetic_contract_002",
+  "question": "TEST_ONLY synthetic source binding and descriptive routing",
+  "date_utc": "2026-10-14",
+  "source_fingerprint": "3bc4c10e1a397b40736458f9316c67f2b653851183eda97d2927ccbca50c05c7",
+  "synthetic": true,
+  "purpose": "WORKFLOW_TEST",
+  "evidence": [
+    {
+      "id": "SYNTHETIC_FACTS",
+      "path": "evidence/synthetic-contract-facts-002.json",
+      "sha256": "fa26d991f85dcd5935ee5449ac37bac414f757f5a93894c9c798d128daee477f"
+    },
+    {
+      "id": "SYNTHETIC_SOURCE",
+      "path": "evidence/synthetic-source-002.csv",
+      "sha256": "3bc4c10e1a397b40736458f9316c67f2b653851183eda97d2927ccbca50c05c7"
+    }
+  ],
+  "axes": {
+    "data_analyzability": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    },
+    "clinical_value": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    },
+    "nearest_neighbor_increment": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    },
+    "design_bias": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    },
+    "evidence_sufficiency": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    },
+    "research_depth": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    },
+    "target_fit": {
+      "rating": "UNKNOWN",
+      "rationale": "Contract fixture only; no real clinical/scientific judgment is established.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    }
+  },
+  "search": {
+    "status": "NOT_DONE",
+    "evidence_refs": [],
+    "coverage_limits": [
+      "No literature search; this fixture is not novelty evidence."
+    ]
+  },
+  "conditions": [],
+  "doctor_first_feedback": "TEST_ONLY：两行完全合成输入，仅测试证据绑定和允许的本地QC/描述路径；不运行医学模型，不支持临床主张或投稿。",
+  "known_unavailable": [
+    "No real patient data, clinical inference or literature search."
+  ],
+  "target": {
+    "journal": "UNSPECIFIED_TEST_ONLY"
+  },
+  "case_kind": "SYNTHETIC",
+  "plan_confirmed": false,
+  "findings": [
+    {
+      "severity": "CRITICAL",
+      "status": "UNAVAILABLE",
+      "affects": [
+        "PUBLICATION"
+      ],
+      "rationale": "Synthetic engineering data cannot support clinical publication.",
+      "evidence_refs": [
+        "SYNTHETIC_FACTS"
+      ]
+    }
+  ],
+  "publication_advice": {
+    "recommendation": "STOP",
+    "rationale": "No clinical research or publication eligibility in this synthetic fixture.",
+    "evidence_refs": [
+      "SYNTHETIC_FACTS"
+    ]
+  },
+  "readiness": {
+    "authorized_use_confirmed": true,
+    "definitions_confirmed": true,
+    "exploration_prespecified": true,
+    "evidence_refs": [
+      "SYNTHETIC_FACTS"
+    ]
+  }
+}

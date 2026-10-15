@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ye1 project data choice; executable checker is privacy_boundary.py",
+  "type": "object",
+  "required": [
+    "schema",
+    "mode",
+    "attachment_history",
+    "grants"
+  ],
+  "properties": {
+    "schema": {
+      "const": "ye1-data-choice/1"
+    },
+    "mode": {
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "attachment_history": {
+      "type": "array",
+      "description": "Factual prior host receipts, never a promise of recall."
+    },
+    "grants": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/grant"
+      }
+    }
+  },
+  "$defs": {
+    "grant": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "platform",
+        "model",
+        "purpose",
+        "classification"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "minLength": 1
+        },
+        "platform": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "enum": [
+            "aggregate",
+            "reviewed_document",
+            "reviewed_figure",
+            "specified_data"
+          ]
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "no_row_data",
+        "identifiers_checked",
+        "free_text_checked",
+        "small_cells_checked",
+        "extremes_checked",
+        "labels_checked",
+        "linkability_checked",
+        "difference_queries_checked",
+        "filenames_checked",
+        "metadata_checked",
+        "evidence"
+      ],
+      "properties": {
+        "no_row_data": {
+          "const": true
+        },
+        "identifiers_checked": {
+          "const": true
+        },
+        "free_text_checked": {
+          "const": true
+        },
+        "small_cells_checked": {
+          "const": true
+        },
+        "extremes_checked": {
+          "const": true
+        },
+        "labels_checked": {
+          "const": true
+        },
+        "linkability_checked": {
+          "const": true
+        },
+        "difference_queries_checked": {
+          "const": true
+        },
+        "filenames_checked": {
+          "const": true
+        },
+        "metadata_checked": {
+          "const": true
+        },
+        "minimum_cell_n": {
+          "type": "integer",
+          "minimum": 2,
+          "description": "Institution-defined threshold; 2 is only a code lower bound, not a safe policy."
+        },
+        "evidence": {
+          "$ref": "#/$defs/evidence"
+        }
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "kind",
+        "path",
+        "sha256",
+        "locator",
+        "quote"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "direct_user",
+            "synthetic"
+          ]
+        },
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        },
+        "scope_sha256": {
+          "type": "string",
+          "description": "Required when recording expanded/new choice; hash canonical encoded choice."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

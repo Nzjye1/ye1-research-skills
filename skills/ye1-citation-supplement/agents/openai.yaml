@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-补充引用"
+  short_description: "为现有段落缺乏依据的主张找适用来源并给插入/改写建议；保留反证，不能用真实但不支持的引用装饰原句。"
+  default_prompt: "使用 $ye1-citation-supplement，根据我提供的现有材料完成补充引用并说明实际来源和待核项。"

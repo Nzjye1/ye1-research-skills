@@ -1,0 +1,3 @@
+interface:
+  display_name: "Ye1-收数与续接"
+  short_description: "保存研究收集进度并跨会话恢复工作包；回传数据后核方案版本、定义和完整性再交分析。"

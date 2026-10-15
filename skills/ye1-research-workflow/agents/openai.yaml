@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ye1-科研全流程"
+  short_description: "从医生数据或门诊研究设计起步，带领确认方案、真实分析及中英文论文审阅交付"
+  default_prompt: "用 $ye1-research-workflow 根据我的实际资料和研究目标，带我完成从研究设计或数据分析到论文审阅交付的流程。"
+policy:
+  allow_implicit_invocation: true

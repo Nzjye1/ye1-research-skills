@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-审稿回复"
+  short_description: "逐条拆解审稿意见并绑定真实修订位置，区分已改、未改和待做分析/实验；未做工作不能写成已经完成。"
+  default_prompt: "使用 $ye1-reviewer-response，根据我提供的现有材料完成审稿回复并说明实际来源和待核项。"

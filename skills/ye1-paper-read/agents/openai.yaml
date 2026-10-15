@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-论文精读"
+  short_description: "阅读实际取得的单篇论文或节选，提取问题、设计、方法、结果与局限并定位原文；摘要级不冒称全文阅读。"
+  default_prompt: "使用 $ye1-paper-read，根据我提供的现有材料完成论文精读并说明实际来源和待核项。"

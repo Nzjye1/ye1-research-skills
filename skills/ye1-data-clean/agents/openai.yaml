@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-数据清洗"
+  short_description: "根据明确规则生成清洗副本和逐项变更日志，保留原始数据及未解决问题。"
+  default_prompt: "请使用 $ye1-data-clean 处理我提供的对应材料，沿用已有事实并说明实际完成范围。"

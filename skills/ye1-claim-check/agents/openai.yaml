@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-论据核查"
+  short_description: "判断实际读到的来源是否支持指定主张，核人群、设计、方向、因果及限制；区别文献身份真实和内容支持。"
+  default_prompt: "使用 $ye1-claim-check，根据我提供的现有材料完成论据核查并说明实际来源和待核项。"

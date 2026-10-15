@@ -1,0 +1,3 @@
+interface:
+  display_name: "Ye1-CRF设计"
+  short_description: "把已讨论的研究方案与变量字典生成可填写Excel CRF，含字段校验、单位、缺失码与纵向关联。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-统计分析方案"
+  short_description: "围绕研究问题拟定统计方法、协变量、缺失处理和敏感性分析；适用于分析前或方案修订。"
+  default_prompt: "请使用 $ye1-statistical-plan 处理我提供的对应材料，沿用已有事实并说明实际完成范围。"

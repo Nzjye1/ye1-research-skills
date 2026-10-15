@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-关联分析"
+  short_description: "按确认方案运行适用组间比较与线性或二分类回归，核混杂、缺失和估计稳定性。"
+  default_prompt: "请使用 $ye1-association 处理我提供的对应材料，沿用已有事实并说明实际完成范围。"

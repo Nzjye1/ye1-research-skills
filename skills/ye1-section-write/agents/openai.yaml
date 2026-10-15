@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-章节写作"
+  short_description: "根据真实已有材料撰写指定引言、方法、结果或讨论章节及局部段落；仅改用户选择范围，不强迫完整论文流程。"
+  default_prompt: "使用 $ye1-section-write，根据我提供的现有材料完成章节写作并说明实际来源和待核项。"

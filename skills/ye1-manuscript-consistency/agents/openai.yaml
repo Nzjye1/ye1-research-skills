@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-全文一致性"
+  short_description: "核摘要、正文、图表、引用及中英文稿的事实与结论一致，报告差异和影响范围；不把数字token相同当语义通过。"
+  default_prompt: "使用 $ye1-manuscript-consistency，根据我提供的现有材料完成全文一致性并说明实际来源和待核项。"

@@ -1,0 +1,15 @@
+{
+  "schema": "ye1-legacy-aliases/1",
+  "description": "旧8调用意图的兼容路由；旧规则保留，最终总包只列38个当前品牌入口。宿主按意图路由，不要求医生改输入。",
+  "aliases": {
+    "doctor-paper-read": "ye1-paper-read",
+    "doctor-evidence-locate": "ye1-evidence-locate",
+    "doctor-reference-identity": "ye1-reference-verify",
+    "doctor-reference-align": "ye1-reference-align",
+    "doctor-text-edit": "ye1-manuscript-edit",
+    "doctor-translate": "ye1-academic-translate",
+    "doctor-abstract-edit": "ye1-abstract-edit",
+    "doctor-results": "ye1-results"
+  },
+  "pending": {}
+}

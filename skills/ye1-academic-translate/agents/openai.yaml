@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-学术翻译"
+  short_description: "翻译中英文学术文本，保持术语、数字、单位、否定和证据强度；可直接处理外部单段或整稿。"
+  default_prompt: "使用 $ye1-academic-translate，根据我提供的现有材料完成学术翻译并说明实际来源和待核项。"

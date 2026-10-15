@@ -1,0 +1,107 @@
+{
+  "schema": "doctor-paper-graphics/0.2",
+  "data": {
+    "labels": [
+      "Age / 10 years",
+      "Severity / SD",
+      "Comorbidity"
+    ],
+    "estimate": [
+      1.637847538465552,
+      2.1766477547723677,
+      2.2062562388744333
+    ],
+    "lower": [
+      1.343700376881042,
+      1.7508778836592407,
+      1.4527145882573358
+    ],
+    "upper": [
+      1.9963859543481794,
+      2.7059542487645403,
+      3.3506695884505793
+    ],
+    "measure": "Odds ratio",
+    "interval": "95% Wald CI"
+  },
+  "audit": {
+    "text_count": 13,
+    "glyphs": "pass",
+    "canvas_bounds": "pass",
+    "tick_overlap": "pass",
+    "labels": [
+      {
+        "text": "Adjusted model associations",
+        "size_pt": 11.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "Synthetic training; n=700; Wald intervals",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "1.64 [1.34, 2.00]",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "2.18 [1.75, 2.71]",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "2.21 [1.45, 3.35]",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "Odds ratio (95% CI)",
+        "size_pt": 9.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "0.5",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "1",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "2",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "4",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "Age / 10 years",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "Severity / SD",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      },
+      {
+        "text": "Comorbidity",
+        "size_pt": 8.0,
+        "font": "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
+      }
+    ],
+    "width_mm": 145.0,
+    "height_mm": 75.0
+  },
+  "files": {
+    "forest.png": "1187d514a55ee8bf8ea67febc3f9da0045098571c1af40043a140d4481a67346",
+    "forest.svg": "7f9f07bf662cf24ea3f63f6986444c3f03026b6b51b1890e85484390c30db004",
+    "forest.pdf": "c65b1626ea16fb211a09f0bbea917a121163b29ac1605357507eac86eb2f3abf"
+  }
+}

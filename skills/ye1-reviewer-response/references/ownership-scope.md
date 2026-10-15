@@ -1,0 +1,9 @@
+# 来源、权属与条款状态（不是许可证）
+
+2026-10-14 UTC / portability-002。自编Skill指令、schema、辅助脚本与新合成fixture的公开条款待用户决定。免费使用可以采用免费专有条款或用户选定的开源条款；本次没有替用户指定MIT/Apache，也没有证据显示38包自编内容整体受第三方禁止使用。
+
+总入口及审阅排版中的materialize.py源于本机Paper-writing/writing_agent/materialize.py，原SHA256为1e62a36256099d34f4fe3d09464a4bfb160c1392f4fa251a79b883634311ed2b，原仓库提交c4f2899fab661aa160ccd3a0391a2d12ecb1bb05。原仓库与检查过的上级无LICENSE/COPYING/NOTICE；pyproject无license字段；源文件无第三方版权头。已有项目记录称用户自有代码和已获本地复用授权。不能把“没有单独公开许可”推断成第三方所有，仍需用户确认权属及发布范围。相邻Paper-analysis的LICENSE只有年份与Local Researcher声明，无许可授予，且不适用于此文件。
+
+NumPy、Matplotlib、python-docx、Pillow、openpyxl、R/jsonlite、LibreOffice、Poppler、FreeType/系统字体均为按功能使用的现有外部依赖，本包没有捆绑这些实现或字体；各自授权不因requirements而转为本产品条款。未来若捆绑，须按实际版本收集许可/notice。MATPLOTLIB字体后端与操作系统字体的使用不授予字体再分发权。
+
+公开文献标识/链接、查询筛选记录、自编中文提炼与合成工程fixture应分别看待；原始API摘要响应仅历史审计留存，不在新候选作可执行依据。反防御写作记录仅自主表达，未复制上游提示词/代码。未发现实际采用付费编辑包或Nature-skills源码的证据。本说明仅列来源和未决事项，不是权属法律认证或授权书。

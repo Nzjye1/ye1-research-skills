@@ -1,0 +1,3 @@
+# Optional task dependencies; do not auto-install. Python helpers require Python 3.11+.
+numpy>=2.0
+matplotlib>=3.9

@@ -1,0 +1,64 @@
+{
+  "seed": 20261012,
+  "outcome": "Synthetic 30-day clinical deterioration; complete binary follow-up; no censoring",
+  "selection": "1200 synthetic records; 100 eligibility flags excluded before random split; 700 training / 400 internal hold-out",
+  "features": [
+    "Age per 10 years (centered at 60)",
+    "Severity per SD",
+    "Comorbidity (yes vs no)"
+  ],
+  "generating_beta": [
+    -1.8,
+    0.45,
+    0.8,
+    0.65
+  ],
+  "fitted_beta": [
+    -1.8928810065248285,
+    0.49338290323900647,
+    0.7777859661164978,
+    0.7912970695139115
+  ],
+  "covariance": [
+    [
+      0.020120472179516114,
+      -0.0036540670021515185,
+      -0.005843980289496871,
+      -0.018347454817671277
+    ],
+    [
+      -0.003654067002151517,
+      0.010200548582378599,
+      0.00204085518313483,
+      0.0013103645756576984
+    ],
+    [
+      -0.005843980289496871,
+      0.0020408551831348305,
+      0.01233331004635072,
+      0.003197950955340104
+    ],
+    [
+      -0.01834745481767128,
+      0.0013103645756577006,
+      0.0031979509553401037,
+      0.04545231110427943
+    ]
+  ],
+  "solver": {
+    "iterations": 6,
+    "score_max": 8.548717289613705e-15
+  },
+  "training_events": 137,
+  "validation_events": 79,
+  "validation_n": 400,
+  "prediction_role": "internal hold-out from same simulation distribution; not external validation",
+  "DCA_action": "hypothetical escalation of monitoring; no proven clinical benefit",
+  "threshold_range": [
+    0.05,
+    0.4
+  ],
+  "threshold_rationale": "prespecified fictional scenario assuming harm/benefit tradeoff compatible with 5–40% risk; not a clinical recommendation",
+  "model_uncertainty": "Point ROC/PR/DCA curves only; no model refit uncertainty. Calibration bins have conditional Wilson intervals.",
+  "source_data_sha256": "b99fbc36b82a91ac1d024e7d2eb1d41cc5b7e9afd48f5e8d9043beb15546e418"
+}

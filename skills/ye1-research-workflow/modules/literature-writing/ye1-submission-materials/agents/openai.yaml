@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ye1-投稿材料"
+  short_description: "从真实稿件生成Cover letter、Highlights和声明草稿；未知伦理、作者同意、利益冲突或独投状态留待确认，不实"
+  default_prompt: "使用 $ye1-submission-materials，根据我提供的现有材料完成投稿材料并说明实际来源和待核项。"
